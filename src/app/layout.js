@@ -6,7 +6,7 @@ import Footer from './components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'SIGBED | MUJ ACM',
+  title: 'ACM SIGBED',
   description: 'Official Website of MUJ ACM SIGBED Chapter',
 }
 
