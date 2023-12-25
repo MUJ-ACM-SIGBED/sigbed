@@ -55,6 +55,7 @@ export default function Home() {
     <h1 className="mb-2 text-2xl pt-16 font-bold tracking-tight text-center leading-none text-blue-950  md:text-3xl lg:text-4xl">Our Blogs</h1>
       <div className="container px-5 py-24 mx-auto">
         <div className="-my-8 divide-y-2 divide-gray-100">
+
           <div className="py-8 flex flex-wrap md:flex-nowrap">
             <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
             <img className="h-full mr-5 max-w-full rounded-lg" src="https://images.unsplash.com/photo-1456615913800-c33540eac399?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
@@ -70,6 +71,7 @@ export default function Home() {
               </a>
             </div>
           </div>
+
           <div className="py-8 flex flex-wrap md:flex-nowrap">
             <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
             <img className="h-full mr-5 max-w-full rounded-lg" src="https://images.unsplash.com/photo-1497912393765-c549da4bd586?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
@@ -85,6 +87,7 @@ export default function Home() {
               </a>
             </div>
           </div>
+
           <div className="py-8 flex flex-wrap md:flex-nowrap">
             <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
             <img className="h-full mr-5 max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53414479547_4d25eee817_z.jpg" alt="" />
@@ -100,6 +103,7 @@ export default function Home() {
               </a>
             </div>
           </div>
+
         </div>
       </div>
       <div className='flex justify-center'>
@@ -116,6 +120,7 @@ export default function Home() {
     <section className="text-gray-600 bg-white body-font overflow-hidden">
     <h1 className="mb-2 text-2xl pt-16 font-bold tracking-tight text-center leading-none text-blue-950  md:text-3xl lg:text-4xl">Our Projects</h1>
     <div className="container px-5 py-24 mx-auto flex justify-center items-center">
+      <a href='/projects'>
       <Card
         className="max-w-sm mx-2"
         imgAlt="Meaningful alt text for an image that is not purely decorative"
@@ -127,7 +132,7 @@ export default function Home() {
         <p className="font-normal text-gray-700 dark:text-gray-400">
         A versatile aerial drone, the Quadcopter serves multiple applications with its agility and maneuverability. From aerial photography to surveillance, this project explores the potential of unmanned aerial vehicles in various fields. The Quadcopter stands as a testament to innovation.
         </p>
-      </Card>
+      </Card></a><a href='/projects'>
       <Card
         className="max-w-sm mx-2"
         imgAlt="Meaningful alt text for an image that is not purely decorative"
@@ -139,7 +144,7 @@ export default function Home() {
         <p className="font-normal text-gray-700 dark:text-gray-400">
         Integrating an Arduino and Bluetooth technology, this project results in a remote-controlled car. Beyond the fun aspect, it serves as a practical application of embedded systems and wireless communication in robotics and the use of wireless communication.
         </p>
-      </Card>
+      </Card></a><a href='/projects'>
       <Card
         className="max-w-sm mx-2"
         imgAlt="Meaningful alt text for an image that is not purely decorative"
@@ -151,7 +156,7 @@ export default function Home() {
         <p className="font-normal text-gray-700 dark:text-gray-400">
         Bringing precision to art, this project involves a CNC-controlled drawing machine. It combines artistry and technology, enabling the creation of intricate and accurate drawings through automated processes.
         </p>
-      </Card>
+      </Card></a>
     </div>
       <div className='flex justify-center'>
         <a href='/projects'>

@@ -8,15 +8,15 @@ export default function Footer(){
 
     return (<>
 
-        <section className="text-gray-100 bg-white body-font">
-        <div className="w-full mx-auto bg-gray-100  px-5 py-14 flex items-center md:flex-row flex-col">
+        <section className="text-gray-100 bg-white body-font hidden md:block lg:block xl:block">
+        <div className="w-full bg-gray-200  px-5 py-14 flex items-center md:flex-row flex-col">
             <div className="flex flex-col md:pr-10 ml-16 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
             <h2 className="text-2xl text-blue-600 tracking-widest font-medium title-font mb-1">Explore the benefits of joining ACM SIGBED,</h2>
             <h1 className="md:text-lg text-sm font-medium title-font text-gray-900">Your gateway to the world of IoT. Join us to connect with like-minded individuals,</h1>
             <h1 className="md:text-lg text-sm font-medium title-font text-gray-900">gearing up for success in college and beyond, with a specific focus on the Internet of Things</h1>
 
             </div>
-            <div className=" ml-24">
+            <div className="mx-auto">
             <button onClick={handleButtonClick} className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium  text-gray-100 rounded-lg group hover:duration-300 bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
                     <span className="relative px-5 py-3 transition-all ease-in duration-75 bg-black dark:bg-gray-900 rounded-md hover:duration-300 group-hover:bg-opacity-0">
                     Join Now
