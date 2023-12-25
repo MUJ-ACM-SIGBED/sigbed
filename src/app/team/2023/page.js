@@ -6,7 +6,7 @@ export default function Home() {
     <main className="flex min-h-screen bg-gray-100 flex-col items-center justify-between">
         <a href='/team/developers'>
     <div className="p-4 mb-4 text-sm text-left text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400" role="alert">
-        <span className="font-medium">Click Here!</span> To checkout the Web Development Team.
+        <span className="font-medium">Click Here!</span> To checkout the Development Team for this website.
     </div></a>
     <section className="text-gray-600 bg-gray-100 body-font">
         <div className="container px-5 py-10 pt-12 mx-auto">
