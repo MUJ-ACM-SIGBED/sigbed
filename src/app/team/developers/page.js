@@ -4,8 +4,8 @@ export default function Home() {
   return (<>
     <main className="flex min-h-screen bg-gray-100 flex-col items-center justify-between">
     <section className="text-gray-600 bg-gray-100 body-font">
-        <div className="container px-5 py-10 pt-12 mx-auto">
-            <div className="flex flex-col text-center w-full px-28 mb-12">
+        <div className="container px-5 py-10 pt-8 mx-auto">
+            <div className="flex flex-col text-center w-full px-28 mb-6">
             <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">Faculty Coordinator</h1>
             </div>
             <div className="flex flex-wrap -m-2 w-full">
@@ -68,8 +68,8 @@ export default function Home() {
       
     <section className="text-gray-600 mb-16 bg-gray-100 body-font">
         <div className="container px-5 py-12 mx-auto">
-            <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Made with ❤️ from </h1>
+            <div className="flex flex-col text-center w-full mb-12">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">Made with ❤️ from </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-transparent -mb-12 select-none text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably havent heard of them.</p>
             </div>
             
