@@ -22,7 +22,7 @@ export default function Navbar() {
               className="h-16"
               alt="Flowbite Logo"
             />
-            <h1 className='font-semibold font-sans text-xl'>MUJ SIGBED</h1>
+            <h1 className='font-semibold font-sans text-xl'>MUJ ACM SIGBED</h1>
           </a>
           <button
             onClick={toggleMenu}
@@ -56,26 +56,26 @@ export default function Navbar() {
           >
             <ul className="font-medium text-base flex flex-col p-4 md:p-0 mt-6 border border-black rounded-lg bg-black md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-black dark:bg-gray-800 md:dark:bg-black dark:border-black">
                     <li>
-                    <a href="/" className="block py-3 px-3 mt-3  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:duration-300 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" aria-current="page">HOME</a>
+                    <a href="/" className="block py-3 px-3 mt-3  text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:duration-300 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" aria-current="page">HOME</a>
                     </li>
                     <li>
-                    <a href="/projects" className="block py-3 px-3 mt-3  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:duration-300 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">PROJECTS</a>
+                    <a href="/projects" className="block py-3 px-3 mt-3  text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:duration-300 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">PROJECTS</a>
                     </li>
                     <li>
-                    <a href="/events" className="block py-3 px-3 mt-3  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:duration-300 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">EVENTS</a>
+                    <a href="/events" className="block py-3 px-3 mt-3  text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:duration-300 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">EVENTS</a>
                     </li>
                     <li>
-                    <a href="/team" className="block py-3 px-3 mt-3  text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:duration-300 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">TEAM</a>
+                    <a href="/team" className="block py-3 px-3 mt-3  text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:duration-300 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">TEAM</a>
                     </li>
                     <li>
-                    <a href="https://medium.com/@acm.sigbed" className="block py-5 mt-3 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:duration-300 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">BLOGS</a>
+                    <a href="https://medium.com/@acm.sigbed" className="block py-5 mt-3 px-3 text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:duration-300 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">BLOGS</a>
                     </li>
                     <li>
-                    <a href="/gallery" className="block py-5 mt-3 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:duration-300 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">GALLERY</a>
+                    <a href="/gallery" className="block py-5 mt-3 px-3 text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 hover:duration-300 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">GALLERY</a>
                     </li>
                     <li>
                     <button onClick={handleButtonClick} className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group hover:duration-300 bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
-                    <span className="relative px-5 py-3 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md hover:duration-300 group-hover:bg-opacity-0">
+                    <span className="relative px-5 py-3 transition-all ease-in duration-75 text-white bg-gray-900 dark:bg-gray-900 rounded-md hover:duration-300 group-hover:bg-opacity-0">
                     Join Now
                     </span>
                     </button>
