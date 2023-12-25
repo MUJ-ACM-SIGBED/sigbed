@@ -75,7 +75,7 @@ export default function Footer(){
                         
                     </li>
                     <li>
-                        <a href="#" className="text-gray-100 hover:text-blue-500 hover:duration-300">MUJ ACM Website</a>
+                        <a href="https://www.acm.org/" className="text-gray-100 hover:text-blue-500 hover:duration-300">ACM Official Website</a>
                     </li>
                     <li>
                         <a className="text-black select-none font-semibold text-base mb-10">Nikunj Agarwal</a>
@@ -83,9 +83,7 @@ export default function Footer(){
                     <li>
                         <a href="https://sigbed.org/" className="text-gray-100 hover:text-blue-500 hover:duration-300">SIGBED Official Website</a>
                     </li>
-                    <li>
-                        <a href="https://www.acm.org/" className="text-gray-100 hover:text-blue-500 hover:duration-300">ACM Official Website</a>
-                    </li>
+                    
                     </nav>
                 </div>
                 <div className="lg:w-1/2 md:w-1/2 w-full px-4">

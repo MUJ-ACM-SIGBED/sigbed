@@ -10,7 +10,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="grid bg-transparent grid-cols-2 md:grid-cols-4 gap-4">
     <div className="grid gap-4">
         <div>
             <img className="h-full max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53415838785_028e7fe8f2_b.jpg" alt="" />
