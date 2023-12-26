@@ -69,7 +69,7 @@ export default function Home() {
     <section className="text-gray-600 mb-16 -mt-12 bg-gray-100 body-font">
         <div className="container px-5 py-12 mx-auto">
             <div className="flex flex-col text-center w-full mb-12 -mt-12">
-            <h1 className="sm:text-3xl text-2xl mb-2 font-medium title-font text-gray-900">Made with ❤️ from </h1>
+            <h1 className="sm:text-3xl text-2xl mb-2 font-medium title-font text-gray-900">Developed by </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-transparent -mb-12 select-none text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably havent heard of them.</p>
             </div>
             
@@ -93,14 +93,14 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-                    <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                    <div className="h-full flex items-cover border-gray-200 border p-4 rounded-lg">
                         <img
                             alt="team"
                             className="w-28 h-28 bg-gray-100 object-cover object-top flex-shrink-0 rounded-full mr-4"
-                            src="https://live.staticflickr.com/65535/53420752783_d8d2334ff4_z.jpg"
+                            src="https://live.staticflickr.com/65535/53421504911_c87212266a_z.jpg"
                         />
                         <div className="flex-grow">
-                            <h2 className="text-gray-900 title-font font-medium">Tanya Sharma</h2>
+                            <h2 className="text-gray-900 mt-1 title-font font-medium">Tanya Sharma</h2>
                             <p className="text-gray-500">Webmaster 2023-24</p>
                             <a href='https://www.linkedin.com/in/tanya-sharma-69457b221/' className=''>
                                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 48 48">

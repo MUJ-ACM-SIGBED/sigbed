@@ -52,13 +52,14 @@ export default function Home() {
 
 
     <section className="text-gray-600 bg-gray-100 body-font overflow-hidden">
-    <h1 className="mb-2 text-2xl pt-16 font-bold tracking-tight text-center leading-none text-blue-950  md:text-3xl lg:text-4xl">Our Blogs</h1>
+    <h1 className="mb-2 text-2xl pt-16 font-bold tracking-tight text-center leading-none text-blue-950 sm:text-5xl md:text-3xl lg:text-4xl">Our Blogs</h1>
       <div className="container px-5 py-24 mx-auto">
-        <div className="-my-8 divide-y-2 divide-gray-100">
+        <div className="-my-8 divide-y-2 divide-gray-100 ">
 
           <div className="py-8 flex flex-wrap md:flex-nowrap">
             <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-            <img className="h-full mr-5 max-w-full rounded-lg" src="https://images.unsplash.com/photo-1456615913800-c33540eac399?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+            <img className="h-full mr-5 max-w-full rounded-lg hidden sm:hidden md:hidden lg:block" src="https://images.unsplash.com/photo-1456615913800-c33540eac399?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+
             </div>
             <div className="md:flex-grow">
               <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Unmanned Aerial Vehicles (UAVs): Navigating the Skies with Autonomous Airborne Systems</h2>
@@ -74,7 +75,7 @@ export default function Home() {
 
           <div className="py-8 flex flex-wrap md:flex-nowrap">
             <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-            <img className="h-full mr-5 max-w-full rounded-lg" src="https://images.unsplash.com/photo-1497912393765-c549da4bd586?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+            <img className="h-full mr-5 max-w-full rounded-lg hidden sm:hidden md:hidden lg:block" src="https://images.unsplash.com/photo-1497912393765-c549da4bd586?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
             </div>
             <div className="md:flex-grow">
               <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Into the Future: Emerging Trends in UAV Research</h2>
@@ -90,7 +91,7 @@ export default function Home() {
 
           <div className="py-8 flex flex-wrap md:flex-nowrap">
             <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-            <img className="h-full mr-5 max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53414479547_4d25eee817_z.jpg" alt="" />
+            <img className="h-full mr-5 max-w-full rounded-lg hidden sm:hidden md:hidden lg:block" src="https://live.staticflickr.com/65535/53414479547_4d25eee817_z.jpg" alt="" />
             </div>
             <div className="md:flex-grow">
               <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Woke master cleanse drinking vinegar salvia</h2>
@@ -117,7 +118,7 @@ export default function Home() {
       </div>
     </section>
 
-    <section className="text-gray-600 bg-white body-font overflow-hidden">
+    <section className="text-gray-600 bg-white body-font overflow-hidden hidden lg:block">
     <h1 className="mb-2 text-2xl pt-16 font-bold tracking-tight text-center leading-none text-blue-950  md:text-3xl lg:text-4xl">Our Projects</h1>
     <div className="container px-5 py-24 mx-auto flex justify-center items-center">
       <a href='/projects'>
@@ -158,6 +159,7 @@ export default function Home() {
         </p>
       </Card></a>
     </div>
+
       <div className='flex justify-center'>
         <a href='/projects'>
         <button
@@ -169,13 +171,62 @@ export default function Home() {
       </div>
     </section>
 
-
-
-
-
-
-
-
+    <section className="text-gray-600 bg-white body-font overflow-hidden block sm:hidden">
+    <h1 className="mb-2 text-2xl pt-16 font-bold tracking-tight text-center leading-none text-blue-950  md:text-3xl lg:text-4xl">Our Projects</h1>
+    <div className="container px-2 sm:px-5 py-10 sm:py-24 mx-auto flex flex-col items-center">
+  <a href='/projects' className="mb-4 sm:mb-0">
+    <Card
+      className="max-w-sm mx-auto"
+      imgAlt="Meaningful alt text for an image that is not purely decorative"
+      imgSrc="https://live.staticflickr.com/65535/53420797170_a34aa7d830_z.jpg"
+    >
+      <h5 className="text-xl sm:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        Quadcopter
+      </h5>
+      <p className="font-normal text-gray-700 dark:text-gray-400">
+        A versatile aerial drone, the Quadcopter serves multiple applications with its agility and maneuverability. From aerial photography to surveillance, this project explores the potential of unmanned aerial vehicles in various fields. The Quadcopter stands as a testament to innovation.
+      </p>
+    </Card>
+  </a>
+  <a href='/projects' className="mb-4 sm:mb-0">
+    <Card
+      className="max-w-sm mx-auto"
+      imgAlt="Meaningful alt text for an image that is not purely decorative"
+      imgSrc="https://live.staticflickr.com/65535/53420373396_d858a23434_z.jpg"
+    >
+      <h5 className="text-xl sm:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        Bluetooth Car Using Arduino
+      </h5>
+      <p className="font-normal text-gray-700 dark:text-gray-400">
+        Integrating an Arduino and Bluetooth technology, this project results in a remote-controlled car. Beyond the fun aspect, it serves as a practical application of embedded systems and wireless communication in robotics and the use of wireless communication.
+      </p>
+    </Card>
+  </a>
+  <a href='/projects'>
+    <Card
+      className="max-w-sm mx-auto"
+      imgAlt="Meaningful alt text for an image that is not purely decorative"
+      imgSrc="https://live.staticflickr.com/65535/53420378066_4b35868d0d_z.jpg"
+    >
+      <h5 className="text-xl sm:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        CNC Automatic Drawing Machine
+      </h5>
+      <p className="font-normal text-gray-700 dark:text-gray-400">
+        Bringing precision to art, this project involves a CNC-controlled drawing machine. It combines artistry and technology, enabling the creation of intricate and accurate drawings through automated processes.
+      </p>
+    </Card>
+  </a>
+    </div>
+    <div className='flex justify-center'>
+        <a href='/projects'>
+        <button
+          type="button"
+          className="text-white mb-12 -mt-12 bg-[#01002F] hover:bg-[#01002F] focus:ring-4 hover:duration-300 focus:ring-blue-300 hover:-translate-y-2 font-medium rounded-lg text-sm px-5 py-2.5 me-2 dark:bg-[#01002F] dark:hover:bg-[#01002F] focus:outline-none"
+        >
+          More Projects!
+        </button></a>
+      </div>
+    </section>
   </>
   )
 }

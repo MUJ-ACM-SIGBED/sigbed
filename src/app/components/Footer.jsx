@@ -27,7 +27,7 @@ export default function Footer(){
         </section>
 
         
-        <footer className="text-gray-100 body-font">
+        <footer className="text-gray-100 bg-black body-font">
         <div className="container px-5 py-12 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                 <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
                     <oi>
