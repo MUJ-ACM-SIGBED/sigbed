@@ -94,8 +94,8 @@ export default function Home() {
             <img className="h-full mr-5 max-w-full rounded-lg hidden sm:hidden md:hidden lg:block" src="https://live.staticflickr.com/65535/53414479547_4d25eee817_z.jpg" alt="" />
             </div>
             <div className="md:flex-grow">
-              <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">Woke master cleanse drinking vinegar salvia</h2>
-              <p className="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
+              <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">The Era of Humanoid Robots: A Technological Odyssey</h2>
+              <p className="leading-relaxed">Robots are on more than just a man-made wonder, it is now a part to be of our everyday lives. Humanoid robots are quickly becoming a reality and will soon be a part of our .....</p>
               <a className="text-blue-700 inline-flex items-center mt-4">Learn More
                 <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M5 12h14"></path>

@@ -1,4 +1,7 @@
+"use client"
 import Image from 'next/image'
+import { Dropdown } from 'flowbite-react';
+
 
 export default function Home() {
   return (<>
@@ -92,7 +95,7 @@ export default function Home() {
                 <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                 <img alt="team" className="w-32 h-32 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://live.staticflickr.com/65535/53414228755_8225e86d7f_z.jpg"/>
                 <div className="flex-grow">
-                    <h2 className="text-gray-900 title-font font-medium">Ritwik Agrawal</h2>
+                    <h2 className="text-gray-900 title-font font-medium">Ritvik Agrawal</h2>
                     <p className="text-gray-500">Treasurer</p>
                     <a href='https://www.linkedin.com/in/ritvik-agrawal-60b3b122b/' className=''>
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 48 48">
@@ -187,6 +190,13 @@ export default function Home() {
             </div>
         </div>
     </section>
+    <div className='mb-5'>
+    <Dropdown label="All Tenures" dismissOnClick={false}>
+        <a href='/team/2022'>
+      <Dropdown.Item>2022</Dropdown.Item></a><a href='/team/2023'>
+      <Dropdown.Item>2023</Dropdown.Item></a>
+    </Dropdown>
+    </div>
     </main>
     </>
   )
