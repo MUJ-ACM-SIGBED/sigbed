@@ -5,7 +5,7 @@ import { Card } from 'flowbite-react';
 export default function Home() {
   return (
     <>
-    <main className="flex min-h-screen flex-col items-center justify-between">
+    <main className="flex min-h-full flex-col items-center justify-between">
       <section className="bg-cover bg-fixed w-full bg-no-repeat bg-[url('https://live.staticflickr.com/65535/53415834125_cfdb046471_c.jpg')] bg-gray-700 bg-blend-multiply">
         <div className="mx-auto max-w-screen-xl text-center py-16 lg:py-56">
             <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Welcome to Indias First SIGBED</h1>

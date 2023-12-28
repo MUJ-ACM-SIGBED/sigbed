@@ -46,7 +46,7 @@ export default function Home() {
         <div className="container px-5 py-10 mx-auto">
             <div className="flex flex-col text-center w-full mb-20">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Executive Team - 2022</h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">We arere thrilled to have gathered a team of brilliant, talented individuals who share a common goal. It brings us great joy to introduce these outstanding folks to our valued members</p>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">We are thrilled to have gathered a team of brilliant, talented individuals who share a common goal. It brings us great joy to introduce these outstanding folks to our valued members</p>
             </div>
             <div className="flex flex-wrap -mt-12">
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">

@@ -11,52 +11,52 @@ export default function Home() {
       </section>
 
       <div className="grid bg-transparent bg-black grid-cols-2 md:grid-cols-4 gap-4">
-    <div className="grid gap-4">
-        <div>
-            <img className="h-full max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53415838785_028e7fe8f2_b.jpg" alt="" />
+        <div className="grid gap-4">
+            <div>
+                <img className="h-full max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53415838785_028e7fe8f2_b.jpg" alt="" />
+            </div>
+            <div>
+                            {/* ye photo kisi ne kbhi bhi htaai, ya location change ki toh bhot maar khayega - MJ Bhaiya (SIGBED vice chair 2022-23) */}
+                <img className="h-auto max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53413732736_5996d99d37_h.jpg" alt="" />
+            </div>
+            <div>
+                <img className="h-auto max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53415758294_d5e67bf773_b.jpg" alt="" />
+            </div>
         </div>
-        <div>
-                        {/* ye photo kisi ne kbhi bhi htaai, ya location change ki toh bhot maar khayega - MJ Bhaiya (SIGBED vice chair 2022-23) */}
-            <img className="h-auto max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53413732736_5996d99d37_h.jpg" alt="" />
+        <div className="grid gap-4">
+            <div>
+                <img className="h-auto max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53415722229_286f5b5dc4_b.jpg" alt="" />
+            </div>
+            <div>
+                <img className="h-auto max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53415569383_5216ddfa55_b.jpg" alt="" />
+            </div>
+            <div>
+                <img className="h-auto max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53415834125_cfdb046471_b.jpg" alt="" />
+            </div>
         </div>
-        <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53415758294_d5e67bf773_b.jpg" alt="" />
-        </div>
-    </div>
-    <div className="grid gap-4">
-        <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53415722229_286f5b5dc4_b.jpg" alt="" />
-        </div>
-        <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53415569383_5216ddfa55_b.jpg" alt="" />
-        </div>
-        <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53415834125_cfdb046471_b.jpg" alt="" />
-        </div>
-    </div>
-    <div className="grid gap-4">
-        <div>
+        <div className="grid gap-4">
+            <div>
 
-            <img className="h-auto max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53415734459_4e8d68d8c9_c.jpg" alt="" />
+                <img className="h-auto max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53415734459_4e8d68d8c9_c.jpg" alt="" />
+            </div>
+            <div>
+                <img className="h-auto max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53413734361_397307abaa_b.jpg" alt="" />
+            </div>
+            <div>
+                <img className="h-auto max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53415896455_6e17bd8925_c.jpg" alt="" />
+            </div>
         </div>
-        <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53413734361_397307abaa_b.jpg" alt="" />
+        <div className="grid gap-4">
+            <div>
+                <img className="h-auto max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53414479547_4d25eee817_b.jpg" alt="" />
+            </div>
+            <div>
+                <img className="h-auto max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53415822879_d625e6f70f_c.jpg" alt="" />
+            </div>
+            <div>
+                <img className="h-auto max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53415736139_c3636fbe89_b.jpg" alt="" />
+            </div>
         </div>
-        <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53415896455_6e17bd8925_c.jpg" alt="" />
-        </div>
-    </div>
-    <div className="grid gap-4">
-        <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53414479547_4d25eee817_b.jpg" alt="" />
-        </div>
-        <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53415822879_d625e6f70f_c.jpg" alt="" />
-        </div>
-        <div>
-            <img className="h-auto max-w-full rounded-lg" src="https://live.staticflickr.com/65535/53415736139_c3636fbe89_b.jpg" alt="" />
-        </div>
-    </div>
        </div>
 
       <section className="text-gray-600 body-font">
