@@ -19,8 +19,8 @@ This website serves as a platform to showcase the activities, events, and achiev
 - **Contributor Recognition:** Acknowledges the contributions of Mrityunjay Shrivastava, Tanya Shaarma, Saamarth Mishra, and others who have contributed to the development of the website.
 
 ## Contributors
-Mrityunjay Shrivastava (@Mrityunjay20)
-Tanya Shaarma 
+Mrityunjay Shrivastava (@Mrityunjay20),
+Tanya Shaarma,
 Saamarth Mishra 
 
 
