@@ -5,10 +5,7 @@ Welcome to the official repository for the SIGBED MUJ Student Chapter website! T
 ## Table of Contents
 - [About SIGBED MUJ Student Chapter](#about-sigbed-muj-student-chapter)
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Contributors](#contributors)
-- [License](#license)
 
 ## About SIGBED MUJ Student Chapter
 SIGBED (Special Interest Group on Embedded Systems) is a global organization that focuses on research and development in embedded systems. The MUJ (Manipal University Jaipur) Student Chapter is an initiative by students at MUJ who share a passion for embedded systems.
