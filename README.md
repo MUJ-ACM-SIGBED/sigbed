@@ -20,7 +20,7 @@ This website serves as a platform to showcase the activities, events, and achiev
 
 ## Contributors
 Mrityunjay Shrivastava (@Mrityunjay20),
-Tanya Shaarma,
+Tanya Sharma,
 Saamarth Mishra 
 
 
