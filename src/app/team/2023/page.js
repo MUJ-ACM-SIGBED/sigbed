@@ -194,7 +194,8 @@ export default function Home() {
     <Dropdown label="All Tenures" dismissOnClick={false}>
         <a href='/team/2022'>
       <Dropdown.Item>2022</Dropdown.Item></a><a href='/team/2023'>
-      <Dropdown.Item>2023</Dropdown.Item></a>
+      <Dropdown.Item>2023</Dropdown.Item></a><a href='/team/2024'>
+      <Dropdown.Item>2024</Dropdown.Item></a>
     </Dropdown>
     </div>
     </main>
