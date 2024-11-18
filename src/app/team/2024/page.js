@@ -121,7 +121,7 @@ export default function Home() {
             </div>
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
                 <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-                <img alt="team" className="w-32 h-32 bg-gray-100 object-cover object-top flex-shrink-0 rounded-full mr-4" src="/images/IMG_5080.JPG"/>
+                <img alt="team" className="w-32 h-32 bg-gray-100 object-cover object-top flex-shrink-0 rounded-full mr-4" src="/images/IMG_5080.jpg"/>
                 <div className="flex-grow">
                     <h2 className="text-gray-900 title-font font-medium">Adwait Deshpande</h2>
                     <p className="text-gray-500">Techincal Secretary</p>
