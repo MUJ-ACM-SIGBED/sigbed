@@ -123,7 +123,7 @@ export default function Home() {
                 <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                 <img alt="team" className="w-32 h-32 bg-gray-100 object-cover object-top flex-shrink-0 rounded-full mr-4" src="/images/IMG_4098.jpg"/>
                 <div className="flex-grow">
-                    <h2 className="text-gray-900 title-font font-medium">Adwait Deshpande</h2>
+                    <h2 className="text-gray-900 title-font font-medium">Ad-testing Deshpande</h2>
                     <p className="text-gray-500">Techincal Secretary</p>
                     <a href='https://www.linkedin.com/in/adwait-ad123/' className=''>
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 48 48">
